@@ -324,5 +324,238 @@ export const cssQuestions = [
             { answerText: 'The text-font property.', isCorrect: false },
         ],
     },
-    
+    {
+		questionText: 'What are the differences between adaptive design and responsive design?',
+		answerOptions: [
+			{ answerText: 'Adaptive design uses multiple fixed layout sizes, while responsive design adjusts to browser space.', isCorrect: true },
+			{ answerText: 'Adaptive design is only for mobile, while responsive design is for desktop only.', isCorrect: false },
+			{ answerText: 'Adaptive design and responsive design are the same things.', isCorrect: false },
+			{ answerText: 'Responsive design uses fixed layouts, while adaptive design is flexible.', isCorrect: false },
+		],
+	},
+	{
+		questionText: 'How are the CSS selectors matched against the elements by the browser?',
+		answerOptions: [
+			{ answerText: 'Browsers filter elements in the DOM, traverse them, and match parent elements until a match is found.', isCorrect: true },
+			{ answerText: 'Browsers match selectors alphabetically.', isCorrect: false },
+			{ answerText: 'CSS selectors are not matched by browsers; developers do it manually.', isCorrect: false },
+			{ answerText: 'Browsers assign selectors randomly until the page looks correct.', isCorrect: false },
+		],
+	},
+    {
+		questionText: 'How is the border-box different from the content box?',
+		answerOptions: [
+			{ answerText: 'Border-box includes content, padding, and border, while Content-box only includes content.', isCorrect: true },
+			{ answerText: 'Border-box and Content-box are interchangeable.', isCorrect: false },
+			{ answerText: 'Content-box includes padding and border, Border-box does not.', isCorrect: false },
+			{ answerText: 'Border-box is outdated and no longer used in modern CSS.', isCorrect: false },
+		],
+	},
+	{
+		questionText: 'How is opacity specified in CSS3?',
+		answerOptions: [
+			{ answerText: 'Opacity is specified using the opacity property with values from 0 to 1.', isCorrect: true },
+			{ answerText: 'Opacity is specified using the filter property with values “opaque” or “transparent”.', isCorrect: false },
+			{ answerText: 'Opacity is specified using the visibility property with values “visible” or “invisible”.', isCorrect: false },
+			{ answerText: 'Opacity is specified using the color property with hexadecimal color codes.', isCorrect: false },
+		],
+	},
+	{
+		questionText: 'What is cascading in CSS?',
+		answerOptions: [
+			{ answerText: 'Cascading is the process of combining multiple style sheets and resolving conflicts between different style rules.', isCorrect: true },
+			{ answerText: 'Cascading is a method of creating animations in CSS.', isCorrect: false },
+			{ answerText: 'Cascading refers to the initial loading process of style sheets when a webpage is first opened.', isCorrect: false },
+			{ answerText: 'Cascading is a deprecated feature in CSS and is no longer relevant in modern web development.', isCorrect: false },
+		],
+	},
+    {
+        questionText: 'When does DOM reflow occur?',
+        answerOptions: [
+            { answerText: 'DOM reflow occurs when elements in the DOM are inserted, moved, updated, removed, or animated, and when style or content is modified.', isCorrect: true },
+            { answerText: 'DOM reflow only occurs when new elements are added to the DOM.', isCorrect: false },
+            { answerText: 'DOM reflow occurs every time a user interacts with the webpage.', isCorrect: false },
+            { answerText: 'DOM reflow is a deprecated term and does not occur in modern browsers.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Which are the different Box Sizing Properties?',
+        answerOptions: [
+            { answerText: 'Content-box, Padding-box, and Border-box', isCorrect: true },
+            { answerText: 'Margin-box, Border-box, and Padding-box', isCorrect: false },
+            { answerText: 'Content-box, Margin-box, and Border-box', isCorrect: false },
+            { answerText: 'Margin-box, Padding-box, and Display-box', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How to center align a div inside another div?',
+        answerOptions: [
+            { answerText: 'By using CSS styling properties such as align-items or justify-content with a display setting of flex or grid.', isCorrect: true },
+            { answerText: 'By setting the inner div’s margin to auto without any other styling.', isCorrect: false },
+            { answerText: 'By using the text-align: center; property on the inner div.', isCorrect: false },
+            { answerText: 'By using the align-center property on the inner div.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What does the :root pseudo-class refer to?',
+        answerOptions: [
+            { answerText: 'It refers to the highest-level parent element in the DOM.', isCorrect: true },
+            { answerText: 'It refers to the root element of the currently styled component.', isCorrect: false },
+            { answerText: 'It selects the element with the id of "root".', isCorrect: false },
+            { answerText: ':root is not a valid CSS selector.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What does Accessibility (a11y) mean?',
+        answerOptions: [
+            { answerText: 'Making systems accessible to people with disabilities, often through text-to-speech capabilities and other assistive technologies.', isCorrect: true },
+            { answerText: 'Ensuring that a website is available in multiple languages.', isCorrect: false },
+            { answerText: 'Optimizing a website for search engine visibility.', isCorrect: false },
+            { answerText: 'Improving the speed and performance of a website.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How do I restore the default value of a property?',
+        answerOptions: [
+            { answerText: 'Using the keyword “initial”.', isCorrect: true },
+            { answerText: 'Setting the property value to "default".', isCorrect: false },
+            { answerText: 'Deleting the property from the stylesheet.', isCorrect: false },
+            { answerText: 'Using the keyword “reset”.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What is the difference between CSS grid and flexbox?',
+        answerOptions: [
+            { answerText: 'CSS Grid is for two-dimensional layouts and Flexbox is for one-dimensional layouts.', isCorrect: true },
+            { answerText: 'CSS Grid is outdated and replaced by Flexbox.', isCorrect: false },
+            { answerText: 'CSS Grid is only for desktop layouts while Flexbox is for mobile layouts.', isCorrect: false },
+            { answerText: 'There is no difference; they are interchangeable.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How does the CSS Calc function work?',
+        answerOptions: [
+            { answerText: 'It allows you to perform calculations to determine CSS property values.', isCorrect: true },
+            { answerText: 'It calculates the total width and height of an element.', isCorrect: false },
+            { answerText: 'Calc is a JavaScript function, not related to CSS.', isCorrect: false },
+            { answerText: 'Calc is used for calculating the color values in CSS.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What do CSS Custom properties variables mean?',
+        answerOptions: [
+            { answerText: 'They are variables defined for reusable and cascading values in CSS.', isCorrect: true },
+            { answerText: 'They are variables that are only used in JavaScript.', isCorrect: false },
+            { answerText: 'They are properties that are automatically generated by the browser.', isCorrect: false },
+            { answerText: 'CSS does not support variables.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What is the difference between CSS variables and pre-processor (SASS, LESS, Stylus) variables?',
+        answerOptions: [
+            { answerText: 'CSS variables don’t need a pre-processor and can cascade, whereas pre-processor variables don’t cascade.', isCorrect: true },
+            { answerText: 'There is no difference between the two.', isCorrect: false },
+            { answerText: 'CSS variables are not supported in most browsers.', isCorrect: false },
+            { answerText: 'Pre-processor variables can be used in JavaScript, but CSS variables cannot.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What does * { box-sizing: border-box; } do? What are its advantages?',
+        answerOptions: [
+            { answerText: 'It sets the box-sizing of all elements to border-box, making elements’ padding and border included in their set dimensions.', isCorrect: true },
+            { answerText: 'It hides all elements that have a border.', isCorrect: false },
+            { answerText: 'It forces all elements to have a border.', isCorrect: false },
+            { answerText: 'It sets the margin of all elements to zero.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What does !important mean in CSS?',
+        answerOptions: [
+            { answerText: '!important gives a style declaration the highest precedence, overriding other rules.', isCorrect: true },
+            { answerText: '!important is used to animate CSS properties.', isCorrect: false },
+            { answerText: '!important is an error in CSS syntax.', isCorrect: false },
+            { answerText: '!important makes a CSS file more important than others.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What is progressive rendering and how is it implemented on a website?',
+        answerOptions: [
+            { answerText: 'It improves webpage performance by loading content progressively, often using lazy loading for images.', isCorrect: true },
+            { answerText: 'It renders a webpage from top to bottom, line by line.', isCorrect: false },
+            { answerText: 'It progressively enhances the design of a webpage as the user scrolls.', isCorrect: false },
+            { answerText: 'It is a technique used exclusively for rendering 3D graphics on a webpage.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Does style1.css have to be downloaded and parsed before style2.css can be fetched?',
+        answerOptions: [
+            { answerText: 'No, both CSS files can be downloaded in parallel.', isCorrect: true },
+            { answerText: 'Yes, style1.css must be fully loaded and parsed before style2.css can start downloading.', isCorrect: false },
+            { answerText: 'The browser decides the download order randomly.', isCorrect: false },
+            { answerText: 'Only style1.css will be downloaded, style2.css will be ignored.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How can you determine if a browser supports a certain feature?',
+        answerOptions: [
+            { answerText: 'Using the @supports rule in CSS.', isCorrect: true },
+            { answerText: 'Browsers support all CSS features.', isCorrect: false },
+            { answerText: 'Using JavaScript alert to show supported features.', isCorrect: false },
+            { answerText: 'It is not possible to determine feature support.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How does absolute positioning work in CSS?',
+        answerOptions: [
+            { answerText: 'It removes the element from the normal document flow, and positions it relative to its closest positioned ancestor or initial container.', isCorrect: true },
+            { answerText: 'It positions an element based on the browser window.', isCorrect: false },
+            { answerText: 'It allows an element to take up the whole width and height of the page.', isCorrect: false },
+            { answerText: 'It automatically centers the element within its container.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How does the overflow: hidden property work in CSS?',
+        answerOptions: [
+            { answerText: 'It clips off content that overflows its box and hides the overflow.', isCorrect: true },
+            { answerText: 'It forces the content to fit within its container.', isCorrect: false },
+            { answerText: 'It adds scrollbars to the content that overflows its box.', isCorrect: false },
+            { answerText: 'It increases the size of the container to fit the overflowing content.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'When should you use translate() instead of absolute positioning?',
+        answerOptions: [
+            { answerText: 'When efficiency is a concern, as translate() is more efficient and results in shorter paint times.', isCorrect: true },
+            { answerText: 'Translate() should be used when positioning elements off the screen.', isCorrect: false },
+            { answerText: 'Translate() is only used for animating elements.', isCorrect: false },
+            { answerText: 'Absolute positioning should always be used instead of translate().', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Name different ways to position elements in CSS.',
+        answerOptions: [
+            { answerText: 'Fixed, Static, Absolute, Sticky, and Relative positioning.', isCorrect: true },
+            { answerText: 'Top, Bottom, Left, Right positioning.', isCorrect: false },
+            { answerText: 'Height and Width positioning.', isCorrect: false },
+            { answerText: 'Margin and Padding positioning.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'What are mixins in CSS preprocessing?',
+        answerOptions: [
+            { answerText: 'Mixins are blocks of code that can output CSS styles and can be reused throughout the stylesheet.', isCorrect: true },
+            { answerText: 'Mixins are a set of predefined styles.', isCorrect: false },
+            { answerText: 'Mixins are used to define variables in the stylesheet.', isCorrect: false },
+            { answerText: 'Mixins are a type of selector used to style elements.', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'How can you optimize a webpage for printing?',
+        answerOptions: [
+            { answerText: 'By using page breaks, creating a stylesheet for print, sizing your page for print, and avoiding unnecessary HTML tables.', isCorrect: true },
+            { answerText: 'By removing all images and graphics from the page.', isCorrect: false },
+            { answerText: 'By converting all text to black and white.', isCorrect: false },
+            { answerText: 'Print optimization is not possible with CSS.', isCorrect: false },
+        ],
+    },
 ];
